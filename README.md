@@ -3,6 +3,9 @@
 **Nama:** Ahmad Rafa Fahrezi  
 **NIM:** 26120300002
 
+## TOOLS AI yang digunakan
+CLAUDE SONNET 5.5
+
 ## Pengalaman Menggunakan AI untuk Coding
 
 Saya menggunakan AI sebagai pendamping belajar coding untuk memahami konsep, mencari ide solusi, dan meninjau kode.
