@@ -8,6 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Reduce motion for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -22,6 +23,7 @@ html {
   }
 }
 
+/* Focus styles for accessibility */
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
@@ -48,6 +50,7 @@ body {
   border-bottom: 1px solid #1f1f1f;
 }
 
+/* Logo and navigation links */
 .logo {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 26px;
@@ -68,6 +71,8 @@ body {
 }
 
 .nav-links a {
+  display: inline-block;
+  padding: 10px 4px;
   text-decoration: none;
   color: #b3b3b3;
   font-size: 16px;
