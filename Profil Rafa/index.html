@@ -24,6 +24,8 @@
     <a href="#contact" class="hire-btn">Hire Me</a>
   </header>
 
+  <main id="main" tabindex="-1">
+
   <!-- HERO -->
   <section class="hero" id="home">
     <p class="hero-tag">Locate in Bogor, INDONESIA</p>
@@ -39,7 +41,6 @@
     <p class="section-sub">
       Berpengalaman Berkerja dibidang Jasa selama ±2 Tahun dibidang yang sama dan ±2 Tahun dibidang yang berbeda.
     </p>
-    </div>
   </section>
 
   <!-- WORK -->
@@ -72,13 +73,17 @@
 
     <form class="contact-form" onsubmit="return false;">
       <div class="form-row">
-        <input type="text" placeholder="Nama" required>
-        <input type="email" placeholder="Email" required>
+        <label class="sr-only" for="contact-name">Nama</label>
+        <input type="text" id="contact-name" name="name" placeholder="Nama" autocomplete="name" required>
+        <label class="sr-only" for="contact-email">Email</label>
+        <input type="email" id="contact-email" name="email" placeholder="Email" autocomplete="email" required>
       </div>
       <textarea rows="5" placeholder="Pesan Anda" required></textarea>
       <button type="submit" class="btn-primary">Kirim Pesan</button>
     </form>
   </section>
+
+</main>
 
   <!-- FOOTER -->
   <footer class="footer">
